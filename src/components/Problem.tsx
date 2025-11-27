@@ -70,7 +70,7 @@ export function Problem() {
 
         <div className="relative rounded-2xl overflow-hidden shadow-2xl">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1650295894392-7fea9aa5a5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMGFmcmljYW4lMjBzY2llbnRpc3QlMjBsYWJvcmF0b3J5fGVufDF8fHx8MTc2NDI0Mjk3N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src="https://images.unsplash.com/photo-1761828122942-e09382131eb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwbWFya2V0JTIwcHJvZHVjdHN8ZW58MXx8fHwxNzY0MjA1OTY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
             alt="African market products"
             className="w-full h-96 object-cover"
           />
