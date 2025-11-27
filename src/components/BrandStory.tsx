@@ -11,28 +11,29 @@ export function BrandStory() {
             <div className="inline-block px-4 py-2 bg-blue-50 text-blue-600 rounded-full mb-6">
               Our Story
             </div>
-            
-            <h2 className="mb-6">
-              Built to Change Africa's Health Reality
-            </h2>
-            
+
+            <h2 className="mb-6">Built to Change Africa's Health Reality</h2>
+
             <p className="text-gray-700 mb-6">
-              Every day, millions of Africans use products — food, hair creams, lotions, and cosmetics — 
-              without knowing what's inside them. Some are pure, but many are unsafe: laced with toxic 
-              chemicals, bacteria, or ingredients banned elsewhere.
+              Every day, millions of Africans use products — food, hair creams,
+              lotions, and cosmetics — without knowing what's inside them. Some
+              are pure, but many are unsafe: laced with toxic chemicals,
+              bacteria, or ingredients banned elsewhere.
             </p>
-            
+
             <p className="text-gray-700 mb-8">
-              AfyaHQ was born to change that. We are building Africa's headquarters for health intelligence, 
-              where science, technology, and truth work together to ensure that everything Africans eat, wear, 
-              and use is safe.
+              AfyaHQ was born to change that. We are building Africa's
+              headquarters for health intelligence, where science, technology,
+              and truth work together to ensure that everything Africans eat,
+              wear, and use is safe.
             </p>
 
             <div className="bg-gradient-to-r from-blue-50 to-green-50 p-6 rounded-xl mb-8 border border-blue-100">
               <p className="text-lg text-gray-900">
-                Through advanced testing, transparent data, and digital tools, AfyaHQ is creating a new 
-                culture of health accountability, empowering consumers to make safer choices and helping 
-                brands meet the highest standards of safety and trust.
+                Through advanced testing, transparent data, and digital tools,
+                AfyaHQ is creating a new culture of health accountability,
+                empowering consumers to make safer choices and helping brands
+                meet the highest standards of safety and trust.
               </p>
             </div>
 
@@ -56,15 +57,13 @@ export function BrandStory() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1658092967527-4e140d9bdaea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwd29tYW4lMjBza2luY2FyZXxlbnwxfHx8fDE3NjQyMDU5NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://images.unsplash.com/photo-1643753608789-64a36bcbaf72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwY29zbWV0aWNzJTIwcHJvZHVjdHN8ZW58MXx8fHwxNzY0MjQxMDU3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="African woman with skincare"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-green-500 text-white p-6 rounded-xl shadow-xl max-w-xs">
-              <p>
-                "Science for a Safer Africa"
-              </p>
+              <p>"Science for a Safer Africa"</p>
             </div>
           </div>
         </div>
