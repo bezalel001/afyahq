@@ -77,7 +77,7 @@ export function Navigation() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="hidden md:flex items-center gap-8"
           >
-            {navLinks.map((link, index) => (
+            {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}

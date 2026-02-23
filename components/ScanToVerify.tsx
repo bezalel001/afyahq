@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
 import {
   Scan,
   Shield,
@@ -149,7 +148,7 @@ export function ScanToVerify() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="flex flex-wrap gap-8 mb-8 pt-6 border-t border-[#007A5E]/10"
             >
-              {stats.map((stat, index) => (
+              {stats.map((stat) => (
                 <div key={stat.label}>
                   <div className="text-3xl font-bold text-[#007A5E] mb-1">
                     {stat.number}

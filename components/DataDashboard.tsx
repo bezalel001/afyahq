@@ -10,8 +10,6 @@ import {
   PieChart,
   Pie,
   Cell,
-  LineChart,
-  Line,
   Legend,
   Area,
   AreaChart,
@@ -177,7 +175,7 @@ export function DataDashboard() {
           animate={isVisible ? "visible" : "hidden"}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12"
         >
-          {stats.map((stat, index) => (
+          {stats.map((stat) => (
             <motion.div
               key={stat.label}
               variants={itemVariants}
