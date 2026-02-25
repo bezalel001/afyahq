@@ -37,9 +37,9 @@ const features = [
 ];
 
 const stats = [
-  { number: "500K+", label: "Active Users" },
-  { number: "2M+", label: "Products Scanned" },
-  { number: "99.9%", label: "Accuracy Rate" },
+  { number: "50+", label: "Active Users" },
+  { number: "5+", label: "Products Scanned" },
+  { number: "98.9%", label: "Accuracy Rate" },
 ];
 
 export function ScanToVerify() {

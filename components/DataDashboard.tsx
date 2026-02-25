@@ -61,28 +61,28 @@ const stats = [
   {
     icon: Package,
     label: "Products Tested",
-    value: "1,233",
+    value: "12",
     change: "+15%",
     trend: "up",
   },
   {
     icon: Shield,
     label: "Certifications Issued",
-    value: "1,029",
+    value: "10",
     change: "+12%",
     trend: "up",
   },
   {
     icon: AlertTriangle,
     label: "Violations Found",
-    value: "204",
+    value: "2",
     change: "-8%",
     trend: "down",
   },
   {
     icon: Users,
     label: "Brands Served",
-    value: "247",
+    value: "24",
     change: "+23%",
     trend: "up",
   },
@@ -99,7 +99,7 @@ export function DataDashboard() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     if (sectionRef.current) {
@@ -424,7 +424,9 @@ export function DataDashboard() {
                 <div className="w-full bg-[#007A5E]/10 rounded-full h-2 overflow-hidden">
                   <motion.div
                     initial={{ width: 0 }}
-                    animate={isVisible ? { width: `${violation.percentage}%` } : {}}
+                    animate={
+                      isVisible ? { width: `${violation.percentage}%` } : {}
+                    }
                     transition={{ duration: 1, delay: 0.5 + index * 0.1 }}
                     className="h-full bg-gradient-to-r from-[#007A5E] to-[#D4A017] rounded-full"
                   />
