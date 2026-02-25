@@ -61,7 +61,7 @@ const stats = [
   {
     icon: Package,
     label: "Products Tested",
-    value: "12",
+    value: "50",
     change: "+15%",
     trend: "up",
   },
@@ -75,7 +75,7 @@ const stats = [
   {
     icon: AlertTriangle,
     label: "Violations Found",
-    value: "2",
+    value: "3",
     change: "-8%",
     trend: "down",
   },

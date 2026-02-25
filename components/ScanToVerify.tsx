@@ -37,8 +37,8 @@ const features = [
 ];
 
 const stats = [
-  { number: "50+", label: "Active Users" },
-  { number: "5+", label: "Products Scanned" },
+  { number: "60+", label: "Active Users" },
+  { number: "50+", label: "Products Scanned" },
   { number: "98.9%", label: "Accuracy Rate" },
 ];
 
